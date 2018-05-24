@@ -1,0 +1,250 @@
+.wrapper{
+    width: 100%;
+}
+
+.box{
+    width: 1200px;
+}
+
+.header{    
+    box-shadow: 0 0 0 2px #ccc;
+}
+
+.header .nav{
+    margin: 0 auto;
+    width: 1200px;
+    height: 75px;
+    line-height: 75px;
+}
+
+.header .nav .nav-logo a img{
+    margin-top: 5px;
+    width: 120px;
+    height: 70px;
+}
+
+.header .nav .nav-tra ul li{
+    float: left;
+    margin-left: 40px;
+}
+
+.header .nav .nav-tra li a{
+    font-size: 16px;
+    color: #343434;
+}
+
+.header .nav .nav-sear{
+    position: relative;
+    margin-left: 90px;
+    margin-top: 25px;
+    width: 210px;
+    height: 30px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;/*border-radius: 是cs3的属性，ie低版本不支持，所以要处理他的兼容，加前缀内核即可;*/
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+}
+
+.header .nav .nav-sear input{
+    position: absolute;
+    margin: 7px 0 0 7px;
+    font-size: 13px;
+    border: none;   /*取消文本框样式*/
+    outline: none;  /*取消获得焦点后文本框样式*/
+}
+
+.header .nav .nav-sear input::-webkit-input-placeholder{
+    color: #9999;
+    font-size: 12px;
+}
+
+.header .nav .nav-sear i{
+    position: absolute;
+    top: -21px;
+    right: 11px;
+    font-size: 22px;
+    color: #9999;
+    cursor: pointer;
+}
+
+.header .nav .nav-reg li{
+    float: left;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.header .nav .nav-reg .reg{
+    background-color: #612cc4;
+    padding: 0 25px;
+    color: #fff;
+}
+
+/* 筛选栏 */
+
+.main .screen{
+    box-shadow: 0 2px 2px #ccc;
+}
+
+.main .screen .screen-text{
+    margin: 55px auto;
+    width: 1200px;
+    height: 270px;
+}
+
+.main .screen .screen-text .classify{
+    margin-top: 30px;
+    
+}
+
+.main .screen .screen-text .classify p span{
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.main .screen .screen-text .classify p a{
+    font-size: 14px;
+    margin-left: 20px;
+    color: #bfbfbf;
+}
+
+.main .screen .screen-text .classify p .chk{
+    color: #8855ef;
+}
+
+.main .screen .screen-text .classify .zi{
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.main .screen .screen-text .classify p input{
+    margin-left: 20px;
+}   /*复选框样式没搞定*/
+
+.main .screen .screen-text .classify p i{
+    font-size: 5px;
+    color: #bfbfbf;
+}
+
+.main .screen .screen-text .classify select{
+    appearance: none;
+    -moz-appearance:none;   
+    -webkit-appearance:none; 
+    -ms-appearance:none; 
+    border: none;
+    color: #bfbfbf;
+    margin-left: 10px;
+}
+
+/* 图片+内容部分 */
+
+.main .content{
+    margin: 60px auto;
+}
+
+.main .content .con{
+    margin-bottom: 50px;
+}
+
+.main .content .con .con-img img{
+    width: 281px;
+    height: 169px;
+    margin-right: 25px;
+}
+
+.main .content .con .con-text p{
+    margin-bottom: 25px;
+}
+
+.main .content .con .con-text div{
+    margin-bottom: 25px;
+}
+
+.main .content .con .con-text div .sl{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.main .content .con .con-text .mark{
+    vertical-align: -webkit-baseline-middle;
+    font-size: 12px;
+    padding: 2px 4px;
+    border: 1px solid #e62050;
+    color: #e62050;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;/*border-radius: 是cs3的属性，ie低版本不支持，所以要处理他的兼容，加前缀内核即可;*/
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+}
+
+.main .content .con .con-text .p2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.main .content .con .con-text .p2 span{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+    color: #878787;
+}
+
+.main .content .con .con-text .p2 i{
+    padding-left: 20px;
+    font-size: 13px;
+    color: #878787;
+}
+
+.main .content .con .con-text .p3{
+    font-size: 13px;
+    color: #898989;
+} 
+
+/* 翻页栏 */
+.main .repage{
+    margin: 0 auto;
+}
+
+.main .repage ul li{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 60px;
+}
+
+.main .repage ul li a{
+    font-size: 10px;
+    color: #999999;
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+}
+
+.main .repage ul li .repage-de:hover{
+    background-color: #612cc4;
+}
+
+/* 页脚 */
+
+.footer {
+    background-color: #333333; 
+}
+
+.footer .footer-content{
+    margin: 0 auto;
+}
+
+.footer .footer-content .footer-left{
+    margin: 37px 0 37px 7px;
+}
+
+.footer .footer-content .footer-left p{
+    color: #989898;
+    margin-top: 4px;
+}
+
+.footer .footer-content .footer-right a img{
+    margin: 37px 134px 0 0;
+}
